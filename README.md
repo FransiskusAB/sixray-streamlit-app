@@ -41,18 +41,6 @@ interactions.
 The hosted environment runs CPU inference. Its available memory, startup time, and
 inference performance depend on the Streamlit Community Cloud instance.
 
-## Interface
-
-- Confidence threshold control (default 0.25)
-- Original and annotated images side by side
-- Class names and confidence scores on annotated detections
-- Detection count, class counts, bounding-box coordinates, and timing
-- Downloadable annotated PNG
-- Previously measured held-out test metrics and per-class AP@50
-
-Class mapping: **Gun**, **Knife**, **Pliers**, **Scissors**, and **Wrench** (IDs 0–4).
-The application checks that the loaded checkpoint exposes this mapping.
-
 ## Previously measured evaluation results
 
 The performance section shows the provided V5D held-out test results: 831 test images,
