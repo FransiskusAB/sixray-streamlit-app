@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Streamlit secrets and local configuration
+.streamlit/secrets.toml
+
+# Model checkpoints and datasets are downloaded or provided separately
+*.pt
+*.pth
+*.onnx
+datasets/
+data/
+images/
+
+# Local tooling
+.DS_Store
+.idea/
+.vscode/
